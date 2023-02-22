@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+  }
+  
+
+footer {
+    margin-top: 90vw;
+}
+
+main {
+    position: absolute;
+    margin-top: 10vw;
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.img:not(:target) {
+    display: none;
+}
+   
+.img:target {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    justify-content: center;
+}
+
+
+img {
+    width: 25vw;
+    height: 25vw;
+}
+  
+.contenue{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin: 1vw;
+}
+  
+
+div.button {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+div.button a {
+    color: #7E8991;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+div.button a:hover {
+    text-decoration: underline;
+}
+
+#diviseur {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 2px;
+    background-color: #7E8991;
+    margin-bottom: 4vw;
+}
+  
+.card-side {
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.card-side.back {
+    transform: rotateY(-180deg);
+}
+
+.card-side.back img {
+    background-color: #7E8991;
+}
+
+.div {
+    width: 20vw;
+    height: 5px;
+    background-color: white;
+}
+
+.card-side.back .text {
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    margin-top: -25.5vw;
+    color: #ffffff;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: #000000 0px 0px 3px;
+}
+
+.card:hover .card-side.front {
+    transform: rotateY(180deg);
+}
+  
+.card:hover .card-side.back {
+    transform: rotateY(0deg);
+}
+
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30vw;
+}
+
+
+.background {
+    position: absolute;
+    background-color: #7e899131;
+    width: 25vw;
+    height: 25vw;
+    margin-bottom: -25vw;
+    z-index: 999;
+}
+
+.pays {
+    color: #7E8991;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4vw;
+    margin: 0;
+}

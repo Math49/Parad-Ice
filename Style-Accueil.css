@@ -1,0 +1,223 @@
+/* Début Css annimation du main UL class slide */
+
+ 
+
+
+footer{
+    margin-top: 165vw;
+}
+
+div.banner{
+    height: 40vw;
+    width: 100%;
+}
+
+.slide { 
+    width: 100%;
+    height: 50vw;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+.slide li { 
+    width: 100%;
+    height: 40vw;
+    position: absolute;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 40s linear infinite; 
+}
+
+ 
+
+.slide li:nth-child(1) { 
+    background-image: url(http://i.imgur.com/K3mPv14.jpg);
+}
+.slide li:nth-child(2) { 
+    background-image: url(https://i.imgur.com/WmHaV6v.jpeg);
+    animation-delay: 10s; 
+}
+.slide li:nth-child(3) { 
+    background-image: url(https://i.imgur.com/5d0Bxdv.jpeg);
+    animation-delay: 20s;
+    background-position: 50% 75%;
+}
+.slide li:nth-child(4) { 
+    background-image: url(https://i.imgur.com/2DxoKXn.jpeg);
+    animation-delay: 30s;
+    background-position: 50% 75%;
+}
+
+ 
+
+@keyframes imageAnimation { 
+    0% { 
+        opacity: 0; 
+        animation-timing-function: ease-in;
+    }
+    10% {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+}
+
+ 
+
+/* Fin Css annimation du main UL class slide */
+
+
+div.Actualité { 
+    margin-top: 5vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+h1.Actualité {
+    color: #7E8991;
+    margin: 0;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7vw;
+}
+
+#contenue {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#contenue img {
+    height: 20vw;
+    width: 20vw;
+}
+
+#contenue h3 {
+    margin: 0;
+    color: #7E8991;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2.5vw;
+    width: 20vw;
+    height: auto;
+}
+
+#contenue div {
+    padding: 2vw;
+}
+
+#contenue div:hover {
+    background-color: #F2FBFC;
+}
+
+
+.concept {
+    margin-top: 56vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: #7E8991;
+    z-index: 1;
+}
+
+#concept-contenue {
+    margin: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+
+#concept-contenue img {
+    border: #D3E4F0 1px solid;
+    height: 30vw;
+    width: 30vw;
+}
+
+#concept-contenue p {
+    color: #D3E4F0;
+    text-align: left;
+    height: auto;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+
+.concept h1 {
+    color: #D3E4F0;
+    margin: 0;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7vw;
+}
+
+
+
+.Qui {
+    margin-top: 110vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+#Qui-contenue {
+    margin-top: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+
+#Qui-contenue img {
+    border: #7E8991 1px solid;
+    height: 30vw;
+    width: 100%;
+}
+
+#Qui-contenue p {
+    color: #7E8991;
+    text-align: left;
+    height: auto;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+
+.Qui h1 {
+    color: #7E8991;
+    margin: 0;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7vw;
+}

@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+}
+
+
+/* Header */
+
+header {
+    background-color: #D3E4F0;
+    height: 10vw;
+
+}
+
+div#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flocon {
+    width: 10vw;
+    height: 10vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    padding-right: 8vw;
+    
+}
+
+h1#Title {
+    color:#FFFFFF;
+    font-family: 'Guyon Gazebo', sans-serif;
+    text-shadow: #A8C3D6 0px 0px 5px;
+    font-size: 5vw;
+    margin: 0;
+    
+}
+
+
+
+#menu a {
+  color:#FFFFFF;
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2vw;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+  color: #7E8991;
+}
+
+
+/* Stal */
+
+div.stalH {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  z-index: 999;
+}
+
+div.stalF{
+  margin-bottom: -1vw;
+}
+
+img.stalF{
+  rotate: 180deg;
+}
+
+img.stalH, img.stalF {
+  height: 10vw;
+  width: auto;
+}
+
+
+
+
+
+/* Footer */
+
+footer{
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+div#footer {
+  background-color : #496389;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+div#table {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+td {
+    color: white;
+    font-family: 'Bebas Neue pro expanded', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.liens a {
+  text-decoration: none;
+  color: white;
+}
+
+.liens a:hover {
+  text-decoration: underline;
+}
+
+table.contact {
+  height: 12vw;
+}
+
+table.liens{
+  height: 10vw;
+}
+
+.premierdutableau {
+    font-size: 1.5vw;
+    color: #D3E4F0;
+}
+
+.contact i {
+  padding-right: 1vw;
+}
+
+div#Réseaux{
+  display: flex;
+  justify-content: flex-end;
+  gap: 3vw;
+  padding-right: 25vw;
+  margin-top: -3vw;
+  
+}
+
+.RS {
+    font-size: 3vw;
+    color: #D3E4F0;
+
+}

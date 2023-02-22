@@ -1,0 +1,154 @@
+main div#text{
+    margin-top: 5vw;
+    text-align: center;
+}
+
+h2.text {
+    margin: 0;
+    color: #7E8991;
+    height: auto;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+div#down i {
+    font-size: 4vw;
+    color: #7E8991;
+    transition: transform 0.5s;
+}
+
+div#down i:hover{
+    transform: translateY(1vw);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    margin-left: 15vw;
+    gap: 2vw;
+}
+
+label {
+    margin: 0;
+    color: #7E8991;
+    height: auto;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+div.name, div.email {
+    display: flex;
+    align-items: center;
+}
+
+#part1 {
+    display: flex;
+    gap: 2vw;
+}
+
+#part2 {
+    display: flex;
+    align-items: center;
+}
+
+#part3 {
+    display: flex;
+    align-items: flex-start;
+}
+
+#part4 {
+    margin-top: -2vw;
+    display: flex;
+    align-items: center;
+}
+
+input.name {
+    width: 17vw;
+}
+
+input.email {
+    width: 31vw;
+}
+
+input.objet {
+    width: 63.7vw;
+}
+
+textarea{
+    width: 61vw;
+    height: 30vw;
+    resize: none;
+}
+
+input {
+    height: 2vw;
+}
+
+textarea, input {
+    border: #7E8991 1.5px solid;
+}
+
+.obligatoire {
+    color: red;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+p.obligatoire-text {
+    color: #7E8991;
+    height: auto;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.label {
+    display: flex;
+    padding-right: 2vw;
+}
+
+.send {
+    margin-top: -5vw;
+    margin-right: 15vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.button a {
+    width: 10vw;
+    height: 4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-radius: 1vw;
+    background-color: #496389;
+    color: white;
+    border: 0;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: white;
+    color:#496389;
+    border:#496389 2px solid;
+}
+
+input, textarea {
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-size: 2vw;
+    color: #7E8991;
+}
